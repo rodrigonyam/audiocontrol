@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+<h1>Checkout</h1>
+
+<section>
+    <h2>Your Cart</h2>
+    <img src="path/to/your/image.jpg" alt="Description of item in cart">
+</section>
+
+<section>
+    <h2>Payment Information</h2>
+    <form action="/submit-payment" method="post">
+        <!-- Card Name Input with required attribute, label, span, id/name, type text -->
+        <label for="card-name">Card Name <span aria-hidden="true">*</span></label>
+        <input type="text" id="card-name" name="card-name" required>
+
+        <!-- Card Number Input with required attribute, label, span, id/name, type text, aria-describedby -->
+        <label for="card-number">Card Number <span aria-hidden="true">*</span></label>
+        <input type="text" id="card-number" name="card-number" required aria-describedby="card-number-help">
+        <p id="card-number-help">Enter your 16-digit card number without spaces.</p>
+
+        <!-- Other inputs would follow the same pattern for labels and required fields -->
+        
+        <input type="submit" value="Complete Purchase">
+    </form>
+</section>
+<body>
+
+<p>Kitty ipsum dolor sit </p>
+</body>
+
+</html>
+
+  </script>
+    </script>
+</body>
